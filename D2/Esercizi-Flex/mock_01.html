@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock1</title>
+</head>
+<style>
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        margin: 50px;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        background-color: white;
+    }
+
+    .main {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        border-radius: 25%;
+        background-color: rgb(253, 245, 218);
+        overflow: hidden;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .bottom {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 9rem;
+    }
+
+    .text {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .description {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .description h2 {
+        margin-top: 20px;
+        margin-bottom: 5px;
+    }
+
+    .description p {
+        margin-top: 0;
+    }
+
+    .price {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .price p {
+        font-size: 24px;
+    }
+
+    button {
+        width: 50%;
+        height: 28%;
+        font-size: large;
+        background-color: rgb(251, 217, 107);
+        border: none;
+        border-radius: 20px;
+    }
+
+    button:hover {
+        cursor: pointer;
+        color: crimson;
+        background-color:rgb(251, 235, 107);
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="main">
+            <div class="top">
+                <img src="assets/honey.jpg">
+            </div>
+            <div class="bottom">
+                <div class="text">
+                    <div class="description">
+                        <h2>100% Bio Honey</h2>
+                        <p>Italian, not treated</p>
+                    </div>
+                    <div class="price">
+                        <p>7$/kg</p>
+                    </div>
+                </div>
+                <button>Add to cart</button>
+            </div>
+
+        </div>
+
+    </div>
+    
+</body>
+</html>

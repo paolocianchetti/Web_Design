@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mock2</title>
+</head>
+<style>
+    * {
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(253, 245, 218);
+        padding: 20px;
+        border-radius: 60px;
+    }
+
+    .navbar nav {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    .navbar button {
+        width: 130px;
+        height: 40px;
+        border: none;
+        background-color: rgb(251, 217, 107);
+        border-radius: 30px;
+    }
+
+    .navbar button:hover {
+        cursor: pointer;
+        color: crimson;
+        background-color: rgb(251, 233, 107);
+        transform: scale(1.1);
+    }
+
+    #centerbtn {
+        width: 270px;
+        height: 80px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        border-radius: 60px;
+    }
+
+    #centerbtn img {
+        width: 60px;
+    }
+
+    #centerbtn span {
+        font-size: 24px;
+        font-weight: bold;
+    }
+</style>
+<body>
+    <div class="navbar">
+        <nav>
+            <button>Our Honey</button>
+            <button>Trace Honey</button>
+            <button id="centerbtn">
+                <div>
+                    <img src="assets/logo.png">
+                </div>
+                <span>SHOP</span>
+            </button>
+            <button>Facilities</button>
+            <button>Contacts</button>
+        </nav>
+    </div>
+</body>
+</html>
